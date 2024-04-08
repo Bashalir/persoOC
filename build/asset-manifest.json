@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d7af6cef.css",
+    "main.js": "/static/js/main.c4a22060.js",
+    "static/js/453.c2b2afdb.chunk.js": "/static/js/453.c2b2afdb.chunk.js",
+    "static/media/Pierre Dumas - Debug3.jpg": "/static/media/Pierre Dumas - Debug3.55102f6a28ddb1a03ecc.jpg",
+    "static/media/Pierre Dumas - Officiel3.jpg": "/static/media/Pierre Dumas - Officiel3.0d389e457f94d8613895.jpg",
+    "static/media/olive.jpg": "/static/media/olive.b2908b40d9fb7f86626b.jpg",
+    "static/media/mockup.jpg": "/static/media/mockup.78c5a70a8adfbe1395a3.jpg",
+    "static/media/basil.jpg": "/static/media/basil.be00474e950eb5af0054.jpg",
+    "static/media/cactus.jpg": "/static/media/cactus.a71c2062a926cb3d5db8.jpg",
+    "static/media/pothos.jpg": "/static/media/pothos.d72dc0ac2f240d84c9d7.jpg",
+    "static/media/monstera.jpg": "/static/media/monstera.ec0819da398bc9469040.jpg",
+    "static/media/lyrata.jpg": "/static/media/lyrata.2e915120c952bdb7066c.jpg",
+    "static/media/mint.jpg": "/static/media/mint.b83a3d2e0c1c1cda808a.jpg",
+    "static/media/calathea.jpg": "/static/media/calathea.455c33e2bd3e5509c907.jpg",
+    "static/media/bank-tree.jpeg": "/static/media/bank-tree.4d59987c7c62b024b014.jpeg",
+    "static/media/succulent.jpg": "/static/media/succulent.f4329849930298a9e46b.jpg",
+    "static/media/argentBankLogo.png": "/static/media/argentBankLogo.e031a16c76ab9bbbf78a.png",
+    "static/media/gitHubCopilot.png": "/static/media/gitHubCopilot.6427b10d5ab42e178215.png",
+    "static/media/apiRest.png": "/static/media/apiRest.51e5815f2fbc13a546d1.png",
+    "static/media/react.png": "/static/media/react.353cd0d80b37b35b3aba.png",
+    "static/media/slack.png": "/static/media/slack.252943d2296bf536058a.png",
+    "static/media/sun.svg": "/static/media/sun.26fb5ace82c593ca64a695a4d42b0568.svg",
+    "static/media/water.svg": "/static/media/water.cceb486fe1f26063bde712aa9fd7ea1e.svg",
+    "index.html": "/index.html",
+    "main.d7af6cef.css.map": "/static/css/main.d7af6cef.css.map",
+    "main.c4a22060.js.map": "/static/js/main.c4a22060.js.map",
+    "453.c2b2afdb.chunk.js.map": "/static/js/453.c2b2afdb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7af6cef.css",
+    "static/js/main.c4a22060.js"
+  ]
+}
