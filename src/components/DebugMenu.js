@@ -1,33 +1,44 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import DebugUserInfo from './DebugUserInfo';
 import DebugCheckbox from './DebugCheckbox';
-
-// pas sur de ça
-import { useSelector, useDispatch } from "react-redux";
-
+import DebugHomebox from './DebugHomebox';
+import DebugUserLinks from './DebugUserLinks';
+import DebugUserInfo from './DebugUserInfo';
+import { useSelector } from 'react-redux';
 
 function DebugMenu() {
+  const isDebug = useSelector((state) => state.debugCheckbox.value);
 
-  let separator = <span>&nbsp;&nbsp;</span>;
-  let separator2 = <span>&nbsp; &nbsp;-&nbsp; &nbsp;</span>;
-
-  //  const isDebug = useSelector((state) => state.debugCheckbox.value);
-  const isDebug = true;
+  //   return (
+  //     <div>
+  //       <div className='nodebug-container'>
+  //         <DebugCheckbox />
+  //         {isDebug && (<DebugUserLinks />)}
+  //         {isDebug && (<DebugUserInfo />)}
+  //       </div>
+  //       <div className='nodebug-container2'>
+  //         <DebugHomebox />
+  //       </div>
+  //     </div>
+  //   );
+  // }
 
   return isDebug ? (
-    <div className='flex-container'>
+    <div className='debug-container'>
       <DebugCheckbox />
-      <div>
-        <Link to="/">HOME</Link>{separator2}
-        <Link to="/1-CV/">PIERRE</Link>{separator2}
-        <Link to="/2-Bank/">BANK</Link>{separator2}
-        <Link to="/3-Shop/">SHOP</Link>{separator2}
-        <Link to="/4-Wikitime/">WIKITIME</Link>{separator2}
-      </div>
+      <DebugUserLinks />
       <DebugUserInfo />
+      <DebugHomebox />
     </div>
-  ) : null;
+  ) : (
+    <div>
+      <div className='nodebug-container'>
+        <DebugCheckbox />
+      </div>
+      <div className='nodebug-container2'>
+        <DebugHomebox />
+      </div>
+    </div>
+  );
 }
 
 export default DebugMenu;

@@ -14,6 +14,7 @@ function Accounts() {
   const amount2 = firstName === "Tony" ? "$150,584,123,928" : "$15,545";
   const amount3 = firstName === "Tony" ? "$184,124,623" : "$18,021";
 
+  //TODO: remettre le bouton Edit une fois que le composant Edit est debug
   return (
     <div className="header main bg-dark">
       <br /><h1>{welcome}</h1>

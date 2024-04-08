@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import './css/main.css';
+import './styles/main.css';
+import './styles/cv.css';
+import './styles/shop.css';
 import App from '../src/app/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

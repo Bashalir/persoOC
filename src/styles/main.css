@@ -1,3 +1,10 @@
+/*-------------------------------------------------------*/
+/*GENERAL                                                */
+/*-------------------------------------------------------*/
+a, a:visited {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Makes the link color the same as the surrounding text */
+}
 html {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -5,18 +12,138 @@ html {
   text-align: center;
   color: #2c3e50;
 }
-
 body {
   margin: 0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-
 .main {
   flex: 1;
 }
 
+/*-------------------------------------------------------*/
+/*DEBUG INFO                                             */
+/*-------------------------------------------------------*/
+.pierre-backgrounder {background-color: aquamarine;}
+.debug-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgrey;
+  margin-left: 04px;
+} 
+.nodebug-container {
+  position: fixed;
+  top: 0px;
+  left: 4px;
+  z-index: 1000;
+}
+.nodebug-container2 {
+  position: fixed;
+  right: 6px;
+  z-index: 1000;
+}
+
+/*-------------------------------------------------------*/
+/*HOME PAGE                                              */
+/*-------------------------------------------------------*/
+.general-container {
+  background: radial-gradient(circle, #f2f2f2, #f8f4d1);
+  height:100vh;
+  margin: 0;
+}
+.home-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  height: 500px;
+  width: 100%;
+  flex-direction: row;
+}
+.pierre-button-cv {background-color: cyan;}
+.pierre-button-bank{background-color: rgb(230, 105, 255);}
+.pierre-button-shop {background-color: rgb(233, 136, 156);}
+.pierre-button-wikitime{background-color: greenyellow;}
+.pierre-button-home {
+  width: 200px;
+  height: 100px;
+  color: black;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 8px 15px rgba(211, 145, 3, 0.1);
+}
+.pierre-button-home:hover {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+/*-------------------------------------------------------*/
+/*CV                                                     */
+/*-------------------------------------------------------*/
+.pierre-radial1 {
+  height: 100vh;
+  margin: 0;
+  background: radial-gradient(circle, #f2f2f2, #d3d3d3);
+}
+.pierre-untiers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  
+}
+.pierre-fullSkill {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2px;
+  padding: 2px;
+}
+.pierre-iconAndSkill {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #f1f1f1; /*w3-light-grey */
+}
+.pierre-OtherSkills {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.pierre-skill {
+  width: 200px;
+}
+.pierre-skillBar {
+  width: 100%;
+  height:24px;
+}
+.pierre-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pierre-icon {width: 32px;}
+.pierre-icon:hover {
+  transform: scale(3);
+  z-index: 1000;
+}
+
+/*-------------------------------------------------------*/
+/*BANK                                                   */
+/*-------------------------------------------------------*/
 .bg-dark {
   background-color: #12002b;
 }
@@ -297,13 +424,3 @@ body {
     width: 200px;
   }
 }
-
-.flex-container {
-  display: flex;
-  justify-content: space-between;
-  background-color: lightgrey;
-} 
-
-.pierre-backgrounder {background-color: aquamarine;}
-.pierre-smaller {font-size: smaller;}
-.pierre-reder {color: red;}

@@ -1,12 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <div>
-      <button>Button 1</button>
-      <button>Button 2</button>
-      <button>Button 3</button>
-      <button>Button 4</button>
+    <div className='general-container'>
+      <div className='home-container'>
+        <Link to="/1-CV/"><button className="pierre-button-home pierre-button-cv">PIERRE</button></Link>
+        <Link to="/2-Bank/"><button className="pierre-button-home pierre-button-bank">BANK</button></Link>
+        <Link to="/3-Shop/"><button className="pierre-button-home pierre-button-shop">SHOP</button></Link>
+        <Link to="/4-Wikitime/"><button className="pierre-button-home pierre-button-wikitime">WIKITIME</button></Link>
+      </div>
     </div>
   );
 }
