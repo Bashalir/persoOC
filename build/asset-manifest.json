@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/persoOC/static/css/main.eacdca43.css",
+    "main.js": "/persoOC/static/js/main.e5aecfe4.js",
+    "static/js/453.c2b2afdb.chunk.js": "/persoOC/static/js/453.c2b2afdb.chunk.js",
+    "static/media/Pierre Dumas - Debug3.jpg": "/persoOC/static/media/Pierre Dumas - Debug3.55102f6a28ddb1a03ecc.jpg",
+    "static/media/Pierre Dumas - Officiel3.jpg": "/persoOC/static/media/Pierre Dumas - Officiel3.0d389e457f94d8613895.jpg",
+    "static/media/olive.jpg": "/persoOC/static/media/olive.b2908b40d9fb7f86626b.jpg",
+    "static/media/mockup.jpg": "/persoOC/static/media/mockup.78c5a70a8adfbe1395a3.jpg",
+    "static/media/basil.jpg": "/persoOC/static/media/basil.be00474e950eb5af0054.jpg",
+    "static/media/cactus.jpg": "/persoOC/static/media/cactus.a71c2062a926cb3d5db8.jpg",
+    "static/media/pothos.jpg": "/persoOC/static/media/pothos.d72dc0ac2f240d84c9d7.jpg",
+    "static/media/monstera.jpg": "/persoOC/static/media/monstera.ec0819da398bc9469040.jpg",
+    "static/media/lyrata.jpg": "/persoOC/static/media/lyrata.2e915120c952bdb7066c.jpg",
+    "static/media/mint.jpg": "/persoOC/static/media/mint.b83a3d2e0c1c1cda808a.jpg",
+    "static/media/calathea.jpg": "/persoOC/static/media/calathea.455c33e2bd3e5509c907.jpg",
+    "static/media/bank-tree.jpeg": "/persoOC/static/media/bank-tree.4d59987c7c62b024b014.jpeg",
+    "static/media/succulent.jpg": "/persoOC/static/media/succulent.f4329849930298a9e46b.jpg",
+    "static/media/argentBankLogo.png": "/persoOC/static/media/argentBankLogo.e031a16c76ab9bbbf78a.png",
+    "static/media/GitHubCopilot.png": "/persoOC/static/media/GitHubCopilot.6427b10d5ab42e178215.png",
+    "static/media/apiRest.png": "/persoOC/static/media/apiRest.51e5815f2fbc13a546d1.png",
+    "static/media/react.png": "/persoOC/static/media/react.353cd0d80b37b35b3aba.png",
+    "static/media/slack.png": "/persoOC/static/media/slack.252943d2296bf536058a.png",
+    "static/media/sun.svg": "/persoOC/static/media/sun.0922d8139b642363c45edcd658e28aa0.svg",
+    "static/media/water.svg": "/persoOC/static/media/water.b7abd8058455acf5f8680f798b8f3ccb.svg",
+    "index.html": "/persoOC/index.html",
+    "main.eacdca43.css.map": "/persoOC/static/css/main.eacdca43.css.map",
+    "main.e5aecfe4.js.map": "/persoOC/static/js/main.e5aecfe4.js.map",
+    "453.c2b2afdb.chunk.js.map": "/persoOC/static/js/453.c2b2afdb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eacdca43.css",
+    "static/js/main.e5aecfe4.js"
+  ]
+}
